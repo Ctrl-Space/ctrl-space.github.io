@@ -2,6 +2,7 @@
 layout: post
 title: 第一篇文章
 category: Jekyll
+duoshuo: true
 ---
 
 Hello Jekyll
