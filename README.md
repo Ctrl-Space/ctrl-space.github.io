@@ -1,7 +1,7 @@
 Jekyll Light
 =============
 
-一个优雅的Jekyll主题。。。(第一次做主题，虽然代码不优雅，关键是看起来很优雅:stuck_out_tongue_closed_eyes:)
+从一个V2EX的网友那里fork的一个优雅的Jekyll主题
 
 [![Version][version-image]][version-url]
 [![License][license-image]][license-url]
@@ -10,8 +10,7 @@ Jekyll Light
 
 ## 简介
 
-这是一款Jekyll博客主题，叫做Jekyll Light。这是我花了两天时间才重新做好的主题。没有用到任何CSS框架，简洁美观。  
-PS: 应该说我不会用CSS框架。。。
+这是一款Jekyll博客主题，叫做Jekyll Light。
 
 ### 关于主题
 * 支持多说评论框
