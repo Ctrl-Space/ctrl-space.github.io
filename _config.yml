@@ -5,7 +5,7 @@ paginate: 6
 paginate_path: page/:num
 
 blog:
-    name: 欧文杰的博客                                                # 博客名称
+    name: 欧文杰                                                # 博客名称
     description: 想把我唱给你听                                         # 博客描述
     title: 欧文杰的博客                                               # 网页标题
     url: http://jackowen.github.io/                                                 # 博客地址
