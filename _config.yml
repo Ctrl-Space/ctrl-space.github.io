@@ -5,11 +5,11 @@ paginate: 6
 paginate_path: page/:num
 
 blog:
-    name: CtrlSpace                                                # 博客名称
+    name: CtrlSpace Blog                                                # 博客名称
     description: 想把我唱给你听                                         # 博客描述
     title: CtrlSpace`s Blog                                               # 网页标题
     url: http://jackowen.github.io/                                                 # 博客地址
-    duoshuo:                                             # 多说ID
+    duoshuo: 文杰                                             # 多说ID
     tongji:                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
