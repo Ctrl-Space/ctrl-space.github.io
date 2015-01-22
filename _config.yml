@@ -10,7 +10,7 @@ blog:
     title: CtrlSpace`s Blog                                               # 网页标题
     url: http://jackowen.github.io/                                                 # 博客地址
     duoshuo: ctrlspace                                             # 多说ID
-    tongji:                                              # 百度统计ID
+    tongji: 34b5e2e37e5190f46670c232724fabc1                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
     name: CtrlSpace                                                # 作者名称
