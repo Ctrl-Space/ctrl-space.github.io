@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 第一篇文章
-category: Jekyll
+title: Hello Blog
+category: 零碎
 date: 2015-01-21
 ---
 
