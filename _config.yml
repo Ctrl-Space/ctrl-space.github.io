@@ -19,5 +19,5 @@ author:
     github: https://github.com/JackOwen                                              # GitHub地址
     logo: https://avatars1.githubusercontent.com/u/8443827?v=3&s=460                                                # logo地址
     douban:
-        name:                                            # 豆瓣地址名称
-        key:                                             # 豆瓣API Key
+        name: 119996190                                           # 豆瓣地址名称
+        key: 067762caaff01c48136628600fd054d8                                             # 豆瓣API Key
