@@ -31,7 +31,7 @@ date: 2015-01-23
 	进去之后，来到一间会议室就开始面试了。
 	（初创小公司，不用填表，不讲流程，没叫我自我介绍= =。）虽然第一次面试，但也没有不淡定，只是累。
 	开门见山问：你觉得你最擅长Android的哪部分？
-	面对这个问题的时候，我是坦白自己的水平才刚刚入门。
+	面对这个问题的时候，我是坦白自己的水平才刚刚入门。  
 	还处于学习打基础的阶段，8月分开始学Android和Java，并没有特别擅长的。
 	（后来总结：其实这时候不应该讲自己没有擅长的，问题的不是问你比别人擅长的，而是问自己最擅长的，
 	回答自己没有擅长的这一点很扣分，丘陵也有小山坡啊，把自己相对靠谱的一点讲出来还是能显示自己自信的，
@@ -81,6 +81,7 @@ date: 2015-01-23
 	一个问题都没问我。。。
 	JAVA也没问。中途问过我会不会J2EE Spring...
 	我学Java就冲着Android学的，Spring是什么鬼。
+	
 	
 总结吧，是我对互联网思维还有产品理念还领悟不够。哦，当时没自信。
 
@@ -205,4 +206,4 @@ date: 2015-01-23
 技术之路最公平也最残酷的原因是：没有捷径，需要日积月累的积累，以及对技术持久的热情。
 
 以及。。。
-![enter image description here](https://github.com/JackOwen/jackowen.github.io/blob/master/res/img/blog/beihoushuowoshuai.gif)
+![enter image description here](https://raw.githubusercontent.com/JackOwen/jackowen.github.io/master/res/img/blog/beihoushuowoshuai.gif)
