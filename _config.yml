@@ -5,15 +5,15 @@ paginate: 6
 paginate_path: page/:num
 
 blog:
-    name: CtrlSpace Blog                                                # 博客名称
-    description: 想把我唱给你听                                         # 博客描述
-    title: CtrlSpace's Blog                                               # 网页标题
+    name: OuWenjie Blog                                                # 博客名称
+    description: 后知后觉后知后觉                                         # 博客描述
+    title: OuWenjie's Blog                                               # 网页标题
     url: http://jackowen.github.io/                                                 # 博客地址
     duoshuo: ctrlspace                                             # 多说ID
     tongji: 34b5e2e37e5190f46670c232724fabc1                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
-    name: CtrlSpace                                                # 作者名称
+    name: OuWenjie                                                # 作者名称
     email: going.ouwenjie@gmail.com                                               # 邮箱地址
     weibo: http://weibo.com/520iamback                                               # 微博地址
     github: https://github.com/JackOwen                                              # GitHub地址
