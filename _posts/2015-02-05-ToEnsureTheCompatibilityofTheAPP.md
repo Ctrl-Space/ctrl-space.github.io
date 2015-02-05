@@ -32,7 +32,8 @@ date: 2015-02-05
 
 ###**Layouts**    
 
-如果你根据Material Design设计的应用的Layout中没有使用任何Android 5.0 (API level 21)中新的XML属性，   
+如果你根据Material Design设计的应用的Layout中没有使用   
+任何Android 5.0 (API level 21)中新的XML属性，   
 他们在旧版本Android中就能正常工作。否则，你要提供后备Layout。   
 你可以在后备Layout中定义你的应用在旧版本系统中的界面。   
 
@@ -73,13 +74,15 @@ date: 2015-02-05
 
 **列表和卡片**     
 
->`RecyclerView` 和 `CardView` 组件可通过 `v7 support libraries` 支持旧版本Android，但是有以下限制：     
+>`RecyclerView` 和 `CardView` 组件可通过 `v7 support libraries` 支持旧版本Android，   
+但是有以下限制：     
 - CardView 需要编程实现阴影和其他的padding    
 - CardView 不能将附着与原件有重合部分的子视图    
 
 ###依赖    
 
-要在Android 5.0之前的版本使用这些特性，需要在项目的Gradle依赖中加入Android v7 support library:     
+要在Android 5.0之前的版本使用这些特性，需要在项目的Gradle依赖中   
+加入Android v7 support library:     
 
 	dependencies {
 		compile 'com.android.support:appcompat-v7:21.0.+'
@@ -107,10 +110,10 @@ date: 2015-02-05
 		// 低于Android 5.0，不能使用材料设计主题   
 	}    
 	
->注意：要声明应用支持哪些Android 版本，在manifest文件中使用android:minSdkVersion和   
-android:targetSdkVersion属性。要在Android 5.0中使用Material Design特性，   
-设置android:targetSdkVersion属性为21。   
-更多信息，参见[<user-sdk> API指南](https://developer.android.com/intl/zh-cn/guide/topics/manifest/uses-sdk-element.html)      
+>注意：要声明应用支持哪些Android 版本，   
+在manifest文件中使用android:minSdkVersion和android:targetSdkVersion属性。   
+要在Android 5.0中使用Material Design特性，设置android:targetSdkVersion属性为21。   
+更多信息，参见<user-sdk> [API指南](https://developer.android.com/intl/zh-cn/guide/topics/manifest/uses-sdk-element.html)      
 
 - - - - - - - - - - 
 
