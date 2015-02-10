@@ -170,3 +170,8 @@ date: 2015-01-31
 >3. 购买证书需要开销    
 
 
+
+**参考资料**   
+
+[互联网全站 HTTPS 的时代已经到来](http://blog.csdn.net/luocn99/article/details/39777707)   
+
