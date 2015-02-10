@@ -1,34 +1,35 @@
 ---
 layout: post
-title: SlidingMenu µÄ»ù±¾Ê¹ÓÃ
+title: SlidingMenu çš„åŸºæœ¬ä½¿ç”¨
 category: Android
 date: 2015-02-09
 ---
 
-##SlidingMenu µÄ»ù±¾Ê¹ÓÃ   
-ÕâÊÇÒ»¸öÀ´×ÔGitHub µÄ¿ªÔ´ÏîÄ¿[SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)   
+##**SlidingMenu çš„åŸºæœ¬ä½¿ç”¨**   
 
-> SlidingMenu ÊÇÒ»¸ö¿ªÔ´µÄAndroid Library£¬¿ÉÒÔÎª¿ª·¢ÕßÌá¹©·Ç³£¼òµ¥µÄ´´½¨Ò»¸ö´øÓĞ»¬¶¯²Ëµ¥µÄÓ¦ÓÃ¡£    
+è¿™æ˜¯ä¸€ä¸ªæ¥è‡ªGitHub çš„å¼€æºé¡¹ç›®[SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)   
 
-###ÔÚEclipse ÖĞÌí¼Ó SlidingMenu µ½ÄãµÄÏîÄ¿ÖĞ   
+> SlidingMenu æ˜¯ä¸€ä¸ªå¼€æºçš„Android Libraryï¼Œå¯ä»¥ä¸ºå¼€å‘è€…æä¾›éå¸¸ç®€å•çš„åˆ›å»ºä¸€ä¸ªå¸¦æœ‰æ»‘åŠ¨èœå•çš„åº”ç”¨ã€‚    
 
-- ÏÈÏÂÔØºÃ¸ÃÏîÄ¿µÄÏîÄ¿[¿â](https://github.com/jfeinstein10/SlidingMenu)   
-- ÔÚ Eclipse ÖĞ£¬import the library as an Android library project.   
-- È»ºó Project -> Clean ¸ÃÏîÄ¿À´Éú³ÉËùĞèµÄRÎÄ¼ş,etc.   
-- ×îºó£¬½«¸Ãlibrary Ìí¼Óµ½ÄãµÄÏîÄ¿ÖĞ¡£  
+###åœ¨Eclipse ä¸­æ·»åŠ  SlidingMenu åˆ°ä½ çš„é¡¹ç›®ä¸­   
+
+- å…ˆä¸‹è½½å¥½è¯¥é¡¹ç›®çš„é¡¹ç›®[åº“](https://github.com/jfeinstein10/SlidingMenu)   
+- åœ¨ Eclipse ä¸­ï¼Œimport the library as an Android library project.   
+- ç„¶å Project -> Clean è¯¥é¡¹ç›®æ¥ç”Ÿæˆæ‰€éœ€çš„Ræ–‡ä»¶,etc.   
+- æœ€åï¼Œå°†è¯¥library æ·»åŠ åˆ°ä½ çš„é¡¹ç›®ä¸­ã€‚  
 
 <!-- more -->   
 
 
-###ÈçºÎÎªÄãµÄÓ¦ÓÃ¼¯³É SlidingMenu £¿    
+###å¦‚ä½•ä¸ºä½ çš„åº”ç”¨é›†æˆ SlidingMenu ï¼Ÿ    
 
-####µÚÒ»ÖÖ·½·¨£º   
+####ç¬¬ä¸€ç§æ–¹æ³•ï¼š   
 
-1. ÔÚ Activity ÖĞµ÷ÓÃ SlidingMenu µÄ¹¹Ôì·½·¨ `new SlidingMenu(Context context)`     
-2.  È»ºóµ÷ÓÃ`SlidingMenu.attachToActivity(Activity activity, SlidingMenu.SLIDING_WINDOW | SlidingMenu.SLIDING_CONTENT)`
-£¨µÚ¶ş¸ö²ÎÊı¿ÉÔÚÆäÖĞÑ¡Ò»¸ö£¬¾ßÌåµÄ×÷ÓÃ½«ÔÚÏÂÃæËµÃ÷£©     
+1. åœ¨ Activity ä¸­è°ƒç”¨ SlidingMenu çš„æ„é€ æ–¹æ³• `new SlidingMenu(Context context)`     
+2.  ç„¶åè°ƒç”¨`SlidingMenu.attachToActivity(Activity activity, SlidingMenu.SLIDING_WINDOW | SlidingMenu.SLIDING_CONTENT)`
+ï¼ˆç¬¬äºŒä¸ªå‚æ•°å¯åœ¨å…¶ä¸­é€‰ä¸€ä¸ªï¼Œå…·ä½“çš„ä½œç”¨å°†åœ¨ä¸‹é¢è¯´æ˜ï¼‰     
 
-Èç£º   
+å¦‚ï¼š   
 
 	public class SlidingExample extends Activity {
 
@@ -52,28 +53,28 @@ date: 2015-02-09
 	}    
 
 
-####µÚ¶şÖÖ·½·¨£º   
+####ç¬¬äºŒç§æ–¹æ³•ï¼š   
 
-1. Í¨¹ı¼Ì³Ğ`SlidingActivity` À´Ìá¹©²à»¬¹¦ÄÜ   
-2. Í¨¹ı `setContentView` ,ÉèÖÃÄÚÈİµÄ²¼¾Ö   
-3. Í¨¹ı `setBehindContentView` ÉèÖÃ²Ëµ¥µÄ²¼¾Ö   
-4. Í¨¹ı `getSlidingMenu` ·½·¨»ñÈ¡¶ÔÏó£¬È»ºó¶Ô²Ëµ¥½øĞĞ¶¨ÖÆ   
+1. é€šè¿‡ç»§æ‰¿`SlidingActivity` æ¥æä¾›ä¾§æ»‘åŠŸèƒ½   
+2. é€šè¿‡ `setContentView` ,è®¾ç½®å†…å®¹çš„å¸ƒå±€   
+3. é€šè¿‡ `setBehindContentView` è®¾ç½®èœå•çš„å¸ƒå±€   
+4. é€šè¿‡ `getSlidingMenu` æ–¹æ³•è·å–å¯¹è±¡ï¼Œç„¶åå¯¹èœå•è¿›è¡Œå®šåˆ¶   
 
-Èç£º  
+å¦‚ï¼š  
 
 	/** 
-	 * ³õÊ¼»¯»¬¶¯²Ëµ¥ 
+	 * åˆå§‹åŒ–æ»‘åŠ¨èœå• 
 	 */  
 	private void initSlidingMenu(){  
-		// ÉèÖÃÖ÷½çÃæÊÓÍ¼  
+		// è®¾ç½®ä¸»ç•Œé¢è§†å›¾  
 		setContentView(R.layout.content_frame);  
 		getSupportFragmentManager().beginTransaction().replace(R.id.content_frame, new SampleListFragment()).commit();  
 				  
-		// ÉèÖÃ»¬¶¯²Ëµ¥ÊÓÍ¼  
+		// è®¾ç½®æ»‘åŠ¨èœå•è§†å›¾  
 		setBehindContentView(R.layout.menu_frame);  
 		getSupportFragmentManager().beginTransaction().replace(R.id.menu_frame, new SampleListFragment()).commit();  
 
-		// ÉèÖÃ»¬¶¯²Ëµ¥µÄÊôĞÔÖµ  
+		// è®¾ç½®æ»‘åŠ¨èœå•çš„å±æ€§å€¼  
 		SlidingMenu sm = getSlidingMenu();        
 		sm.setShadowWidthRes(R.dimen.shadow_width);  
 		sm.setShadowDrawable(R.drawable.shadow);  
@@ -87,11 +88,11 @@ date: 2015-02-09
 	}    
 
 
-####µÚÈıÖÖ·½·¨£º   
+####ç¬¬ä¸‰ç§æ–¹æ³•ï¼š   
 
-1. Ö±½ÓÔÚ XML ²¼¾ÖÎÄ¼şÖĞ¼¯³É SlidingMenu   
+1. ç›´æ¥åœ¨ XML å¸ƒå±€æ–‡ä»¶ä¸­é›†æˆ SlidingMenu   
 
-Èç£º    
+å¦‚ï¼š    
 
 	<com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
 		xmlns:sliding="http://schemas.android.com/apk/res-auto"
@@ -113,26 +114,26 @@ date: 2015-02-09
 		
 	
 
-SlidingMenu Ö÷ÒªÊôĞÔÏê½â£º   
+SlidingMenu ä¸»è¦å±æ€§è¯¦è§£ï¼š   
 
-	// SLIDING_WINDOW ²Ëµ¥½«°ü¹üÕû¸ö´°¿Ú£¨°üÀ¨ActionBar / Title£©.   
-	// SLIDING_WINDOW Ä£Ê½£¬²Ëµ¥Ö»°ü¹üÄÚÈİÇøÓò   
+	// SLIDING_WINDOW èœå•å°†åŒ…è£¹æ•´ä¸ªçª—å£ï¼ˆåŒ…æ‹¬ActionBar / Titleï¼‰.   
+	// SLIDING_WINDOW æ¨¡å¼ï¼Œèœå•åªåŒ…è£¹å†…å®¹åŒºåŸŸ   
 	menu.attachToActivity(this, SlidingMenu.SLIDING_WINDOW);     
 
-|  ÊôĞÔ  |  ×÷ÓÃ  |   
+|  å±æ€§  |  ä½œç”¨  |   
 | :---: | :---: |  
-| viewAbove | ²»ÁË½â 0.0 |   
-|¡¡viewBehind¡¡|¡¡²»ÁË½â 0.0 |   
-| touchModeAbove | »¬¶¯²Ëµ¥µÄÓĞĞ§ÇøÓò£¨TOUCHMODE_MARGIN±ßÔµ Or TOUCHMODE_FULLSCREENÈ«ÆÁ£© |   
-| behindOffset | ²Ëµ¥µÄÆ«ÒÆÏñËØ |   
-| behindWidth | ²Ëµ¥µÄ¿í¶È£¨²Ëµ¥µÄ¿í¶È + Æ«ÒÆÏñËØ = 360dp £©  |   
-| behindScrollScale | ²Ëµ¥À¸ËæÊÖÖ¸»¬³öµÄ¶¯×÷¿ìÂı³ÌĞò 0-²»¶®£¬1-ÍêÈ«¸úËæ½ø³ö |   
-| shadowDrawable | ÒõÓ°  |   
-| shadowWidth | ÒõÓ°¿í¶È  |   
-| fadeEnabled | Ê¹ÄÜÁÁ°µ±ä»¯  |   
-| fadeDegree | »¬¶¯²Ëµ¥Ê±µÄÁÁ°µ±ä»¯ 0-²»±ä£¬1-×î°µ  |   
-| selectorEnabled | ²»ÁË½â 0.0  |   
-| selectorDrawable | ²»ÁË½â 0.0  |   
+| viewAbove | ä¸äº†è§£ 0.0 |   
+|ã€€viewBehindã€€|ã€€ä¸äº†è§£ 0.0 |   
+| touchModeAbove | æ»‘åŠ¨èœå•çš„æœ‰æ•ˆåŒºåŸŸï¼ˆTOUCHMODE_MARGINè¾¹ç¼˜ Or TOUCHMODE_FULLSCREENå…¨å±ï¼‰ |   
+| behindOffset | èœå•çš„åç§»åƒç´  |   
+| behindWidth | èœå•çš„å®½åº¦ï¼ˆèœå•çš„å®½åº¦ + åç§»åƒç´  = 360dp ï¼‰  |   
+| behindScrollScale | èœå•æ éšæ‰‹æŒ‡æ»‘å‡ºçš„åŠ¨ä½œå¿«æ…¢ç¨‹åº 0-ä¸æ‡‚ï¼Œ1-å®Œå…¨è·Ÿéšè¿›å‡º |   
+| shadowDrawable | é˜´å½±  |   
+| shadowWidth | é˜´å½±å®½åº¦  |   
+| fadeEnabled | ä½¿èƒ½äº®æš—å˜åŒ–  |   
+| fadeDegree | æ»‘åŠ¨èœå•æ—¶çš„äº®æš—å˜åŒ– 0-ä¸å˜ï¼Œ1-æœ€æš—  |   
+| selectorEnabled | ä¸äº†è§£ 0.0  |   
+| selectorDrawable | ä¸äº†è§£ 0.0  |   
 
 - - - - - - - - - 
 
