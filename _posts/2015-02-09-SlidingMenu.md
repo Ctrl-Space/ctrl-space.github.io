@@ -11,7 +11,7 @@ date: 2015-02-09
 
 > SlidingMenu 是一个开源的Android Library，可以为开发者提供非常简单的创建一个带有滑动菜单的应用。    
 
-###在Eclipse 中添加 SlidingMenu 到你的项目中   
+###**在Eclipse 中添加 SlidingMenu 到你的项目中**   
 
 - 先下载好该项目的项目[库](https://github.com/jfeinstein10/SlidingMenu)   
 - 在 Eclipse 中，import the library as an Android library project.   
@@ -21,7 +21,7 @@ date: 2015-02-09
 <!-- more -->   
 
 
-###如何为你的应用集成 SlidingMenu ？    
+###**如何为你的应用集成 SlidingMenu ？**    
 
 ####第一种方法：   
 
@@ -114,7 +114,7 @@ date: 2015-02-09
 		
 	
 
-SlidingMenu 主要属性详解：   
+**SlidingMenu 主要属性详解：**    
 
 	// SLIDING_WINDOW 菜单将包裹整个窗口（包括ActionBar / Title）.   
 	// SLIDING_WINDOW 模式，菜单只包裹内容区域   
@@ -135,8 +135,9 @@ SlidingMenu 主要属性详解：
 | selectorEnabled | 不了解 0.0  |   
 | selectorDrawable | 不了解 0.0  |   
 
-- - - - - - - - - 
+- - - - - - - - -    
 
+待续
 
 
 
