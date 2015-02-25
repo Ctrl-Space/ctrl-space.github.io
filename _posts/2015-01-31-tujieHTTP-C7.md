@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《图解HTTP》- 第7章-确保 Web 安全的 HTTPS
+title: HTTP - 确保 Web 安全的 HTTPS
 category: 计算机基础
 date: 2015-01-31
 ---

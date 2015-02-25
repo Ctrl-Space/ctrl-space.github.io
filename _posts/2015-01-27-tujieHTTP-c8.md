@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《图解HTTP》- 第8章-确认访问用户身份的认证
+title: HTTP - 确认访问用户身份的认证
 category: 计算机基础
 date: 2015-01-31
 ---
