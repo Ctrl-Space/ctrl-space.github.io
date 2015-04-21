@@ -7,11 +7,11 @@ date: 2015-04-21
 
 #### 关于 Android 内存泄漏的几篇好文章   
 
-- Android内存泄漏介绍[1]   
-- Android内存泄露之Thread[2]   
-- Android内存泄露之Handler[3]   
-- Android内存泄露之DDMS –> Heap工具[4]   
-- Android Weak Handler：可以避免内存泄漏的Handler库[5]   
+- [Android内存泄漏介绍][1]   
+- [Android内存泄露之Thread][2]   
+- [Android内存泄露之Handler][3]   
+- [Android内存泄露之DDMS –> Heap工具][4]   
+- [Android Weak Handler：可以避免内存泄漏的Handler库][5]   
 
 
 [1]:http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2014/1122/2038.html   
