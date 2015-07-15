@@ -33,9 +33,9 @@ date: 2015-07-15
 
 5. View 的 Theme   
 
->Android 5.0引入一个全新的特性，允许你对view设置theme，这种设置会影响控件及其包含的子控件。
->使用AppCompat v22.1.x 后，也可以给你 layout 里的任意视图设置主题。
->Toolbar常用的ThemeOverlay
+>Android 5.0引入一个全新的特性，允许你对view设置theme，这种设置会影响控件及其包含的子控件。   
+>使用AppCompat v22.1.x 后，也可以给你 layout 里的任意视图设置主题。   
+>Toolbar常用的ThemeOverlay   
 	`ThemeOverlay.AppCompat.Light.ActionBar`
 	`ThemeOverlay.AppCompat.Dark.ActionBar`
 
