@@ -15,23 +15,23 @@ date: 2015-07-15
 <!-- more -->   
 
 ####使用AppCompat
-1. 使用`ToolBar`替代`ActionBar`   
+1、使用`ToolBar`替代`ActionBar`   
 
 >[ToolBar 使用教程](http://blog.mosil.biz/2014/10/android-toolbar/)
 
-2. Activity 必须继承或间接继承 `AppCompatActivity`   
+2、Activity 必须继承或间接继承 `AppCompatActivity`   
 
 >它继承于`FragmentActivity`，所以还可以继续使用 Fragment .
 
-3. 使用（或继承）`Theme.AppCompat`作为APP的主题   
+3、使用（或继承）`Theme.AppCompat`作为APP的主题   
 
 >一般使用`Theme.AppCompat.NoActionBar `，因为要使用`ToolBar`
 
-4. 使用新的`Dialog`   
+4、使用新的`Dialog`   
 
 >直接将 AlertDialog 改为`android.support.v7.app`包下的 AlertDialog 即可
 
-5. View 的 Theme   
+5、View 的 Theme   
 
 >Android 5.0引入一个全新的特性，允许你对view设置theme，这种设置会影响控件及其包含的子控件。   
 >使用AppCompat v22.1.x 后，也可以给你 layout 里的任意视图设置主题。   
