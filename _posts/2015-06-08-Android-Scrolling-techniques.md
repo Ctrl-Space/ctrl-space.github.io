@@ -60,7 +60,7 @@ tabs 可以有下列行为之一：
 app bar 起始的部分与内容有重叠，叠在内容的背后。向上滚动时，app bar 滚动地比内容滚动的速度更快。      
 直到内容不再覆盖于app bar。并允许内容在app bar 下面来回滚动。      
 
-
+- - - - - - - - -    
 
 [Scrolling techniques](http://www.google.com/design/spec/patterns/scrolling-techniques.html#)   
 
