@@ -13,7 +13,7 @@ blog:
     tongji: 34b5e2e37e5190f46670c232724fabc1                                              # 百度统计ID
     qiniu:                                               # 七牛云地址
 author:
-    name: OuWenjie                                                # 作者名称
+    name: OuWenJie                                                # 作者名称
     email: going.ouwenjie@gmail.com                                               # 邮箱地址
     weibo: http://weibo.com/520iamback                                               # 微博地址
     github: https://github.com/Ctrl-Space                                              # GitHub地址
