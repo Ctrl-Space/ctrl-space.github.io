@@ -1,23 +1,88 @@
-markdown: kramdown
-highlighter: pygments
-permalink: blog/:year/:month/:day/:title.html
-paginate: 6
-paginate_path: page/:num
+# Site settings
+title: Ouwenjie Blog
+SEOTitle: 欧文杰的博客 | Ouwenjie Blog
+header-img: img/home-bg.jpg
+email: going_ouwenjie@163.com
+description: "Android Developer"
+keyword: ""
+url: "http://going-ouwenjie.coding.me"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
-blog:
-    name: OuWenjie Blog                                                # 博客名称
-    description: 后知后觉后知后觉                                         # 博客描述
-    title: OuWenjie's Blog                                               # 网页标题
-    url: http://jackowen.github.io/                                                 # 博客地址
-    duoshuo: ctrlspace                                             # 多说ID
-    tongji: 34b5e2e37e5190f46670c232724fabc1                                              # 百度统计ID
-    qiniu:                                               # 七牛云地址
-author:
-    name: OuWenJie                                                # 作者名称
-    email: going.ouwenjie@gmail.com                                               # 邮箱地址
-    weibo: http://weibo.com/520iamback                                               # 微博地址
-    github: https://github.com/Ctrl-Space                                              # GitHub地址
-    logo: https://avatars1.githubusercontent.com/u/8443827?v=3&s=460                                                # logo地址
-    douban:
-        name: 119996190                                           # 豆瓣地址名称
-        key: 067762caaff01c48136628600fd054d8                                             # 豆瓣API Key
+
+
+# SNS settings
+RSS: false
+weibo_username:     null
+zhihu_username:     Ouwenjie
+github_username:    Null-Ouwenjie
+#twitter_username:  null
+facebook_username:  null
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: going-ouwenjie
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: d1d8d513f63b41b72f84a8cc63860007
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: ouwenjie.com
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar-avatar: /img/my-avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "My GitHub",
+        href: "https://github.com/Null-Ouwenjie"
+    }
+]

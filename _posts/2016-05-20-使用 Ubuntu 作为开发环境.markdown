@@ -1,0 +1,36 @@
+---
+layout:     post
+title:      "使用 Ubuntu 作为开发环境"
+subtitle:   "想致力于全栈开发的人，不能一直停留在 Windows 了，试试 Ubuntu 吧"
+date:       2016-05-20
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+> “Linux 真挺炫酷的，我在不会去用 Windows 了。      
+--刚用虚拟机装上 Ubuntu 后小明感叹道。
+(半小时后小明已经气得把电脑砸了...)
+
+> 作为一名开发者，程序员，极客，我一直致力于安装 Ubuntu 虚拟机和删除虚拟机.
+--多次使用 Ubuntu 无功而返的小王
+
+
+1、修改软件源
+使用国内镜像
+
+2、修改系统语言
+中文习惯一点
+
+3、安装搜狗输入法
+
+4、配置浏览器
+
+5、安装 Git
+[Git](https://git-scm.com/download/linux)
+
+6、安装 NVM / Node.js / npm
+[使用 NVM 一键搞定](https://github.com/creationix/nvm)
+
+7、安装 Atom 及其插件
