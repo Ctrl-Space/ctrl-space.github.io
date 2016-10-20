@@ -53,4 +53,5 @@ tags:
 返回 `false` 则不拦截。   
 
 > 参考文章
-[trinea:Android Touch事件传递机制](http://www.trinea.cn/android/touch-event-delivery-mechanism/)
+[trinea:Android Touch 事件传递机制](http://www.trinea.cn/android/touch-event-delivery-mechanism/)   
+[图解 Android Touch 事件分发机制](http://www.jianshu.com/p/e99b5e8bd67b)
