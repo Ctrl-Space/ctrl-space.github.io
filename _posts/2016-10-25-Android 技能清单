@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "Android 技能清单"
+subtitle:   "慢慢累积技能，逐个击破"
+date:       2016-10-25
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Android
+---
+
+>一些重要的 Android 知识   
+   
+- View 的 Touch 事件传递机制
+- View 的绘制流程
+- View 的坐标系
+
+---
