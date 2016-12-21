@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "Java 知识清单"
+subtitle:   "慢慢累积技能，逐个击破"
+date:       2016-10-26
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Java
+---
+
+>一些重要的 Java 知识   
+   
+###基础
+- [Java 语言基础]()   
+- [IO 相关]()   
+- [多线程相关]()   
+- [数据结构相关类]()   
+- [反射]()   
+- [注解](http://blog.csdn.net/duo2005duo/article/details/50505884)   
+- [网络]()
+- [并发]()   
+
+
+
+###JVM   
+- [垃圾回收机制]()   
+- [类加载机制]()   
+- [内存管理]()   
+
+
+###Interview
+[一篇文章教会你，如何做到招聘要求中的“要有扎实的Java基础”。](http://www.cnblogs.com/zuoxiaolong/p/life53.html)   
+[谈谈对于Java程序猿学习当中各个阶段的建议](http://www.cnblogs.com/zuoxiaolong/p/life51.html)   
+[我来告诉你，一个草根程序员如何进入BAT。](http://www.cnblogs.com/zuoxiaolong/p/life54.html)   
+[阿里面试回来，想和Java程序员谈一谈](http://www.jianshu.com/p/5681a1f0aad6#)   
+
+---

@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "在使用 Glide 加载大量图片的时候减少 OOM"
+subtitle:   "正确配置 Glide "
+date:       2016-11-14
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+- 什么是 OOM?
+- 为什么会导致 OOM?
+- 如何解决 OOM?
+
+
+- override 裁剪大小，使用尽量小的图片
+- 加载的时候，skipMemoryCache(true)
+- GlideModule 中，设置 MemoryCache 的大小
+- GlideModule 中，设置图片的质量为 RGB-565，减少 Bitmap 对象的内存占用
+
+**与 Glide 无关的一些措施**
+- 在 androidManifest.xml 的 application 节点加上 android:largeHeap="true" 能缓解 OOM 情况
+- ListView 中需要复用 convertView
+
+>参考文章   
+[Android内存优化之OOM](http://hukai.me/android-performance-oom/)   
+[Glide配置](https://muzhi1991.gitbooks.io/android-glide-wiki/content/chapter2.html)   
+
+---

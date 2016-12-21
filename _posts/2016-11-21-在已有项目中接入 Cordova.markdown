@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "在已有项目中接入 Cordova"
+subtitle:   "混合开发、跨平台"
+date:       2016-11-22
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Android
+---   
+
+- 搭建 JDK 环境(必须添加 JAVA_HOME)
+- 搭建 Android SDK 环境(必须添加 ANDROID_HOME)
+- 安装 NodeJs
+- 安装 Cordova
+- 添加 Android 平台支持
+- 创建 Android 项目

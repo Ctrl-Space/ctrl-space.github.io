@@ -34,3 +34,5 @@ tags:
 [使用 NVM 一键搞定](https://github.com/creationix/nvm)
 
 7、安装 Atom 及其插件
+
+8、弃坑，回归 Windows ...
