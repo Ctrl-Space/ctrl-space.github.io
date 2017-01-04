@@ -41,11 +41,11 @@ tags:
 
 ## 技能清单    
 
-- 熟练掌握 Java / Python / JavaScript 等编程语言  
-- 熟悉常见的数据结构、设计模式、网络协议  
-- 具有两年 Android 应用开发经验, 独立完成并上线多款应用  
-- 熟悉 Android Framework, 熟悉大量第三方开源项目   
-- 熟练使用 Android Studio 进行开发, 熟悉 SVN / Git 等版本管理工具  
+- 熟悉常见的数据结构、设计模式、网络协议等计算机知识  
+- 熟悉 Java / Python / JavaScript 等编程语言  
+- 两年 Android 应用开发经验, 独立完成并上线多款应用     
+- 熟悉 Android Framework, 熟悉大量第三方开源项目
+- 熟悉 Android Studio 开发工具, 熟悉 SVN / Git 等版本管理  
 - 熟悉 JUnit / Mockito / Robolectric 进行单元测试  
 - 熟悉各种第三方云服务, 统计分析, 推送, 支付, 分享等 SDK  
 - 通过了英语 CET-4, 阅读文档无障碍   
