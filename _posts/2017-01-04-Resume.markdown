@@ -14,12 +14,12 @@ tags:
 ## 个人信息   
 
  - 姓名 ：欧文杰 / 男 / 1992   
- - 电话 ：136-1004-4737  
+ - 电话 ：136----------  
  - 邮箱 ：going_ouwenjie@163.com  
  - 教育 ：本科 / 嘉应大学·电子信息工程系   
  - 工作年限 ： 2年  
  - GitHub ： https://github.com/Null-Ouwenjie  
- - 知乎 ：https://www.zhihu.com/people/ouwenjie    
+ - 知乎 ：https://www.zhihu.com/people/---    
 
 ---  
 
