@@ -20,6 +20,7 @@ tags:
 - [View 的动画](http://going-ouwenjie.coding.me/2016/11/22/Android-%E4%B8%AD-View-%E7%9A%84%E5%8A%A8%E7%94%BB/)   
 
 ### 四大组件   
+
 - Activity 的启动流程
 - Service 的启动流程   
 
@@ -27,28 +28,31 @@ tags:
 
 - [Android 异步消息处理机制 让你深入理解 Looper、Handler、Message三者关系](http://blog.csdn.net/lmj623565791/article/details/38377229)   
 - [Android 消息处理机制（Looper、Handler、MessageQueue,Message）](http://www.jianshu.com/p/02962454adf7)   
-- [整个生命周期的启动机制]()   
 
 ### 多进程   
+
 - [一种提高Android应用进程存活率新方法](http://android.jobbole.com/85286/)   
 
 
 ### 性能优化   
 
+[Android 内存优化总结&实践-腾讯Bugly](http://mp.weixin.qq.com/s/2MsEAR9pQfMr1Sfs7cPdWQ)   
 
-### 混合开发
+
+### 混合开发   
+
 - 使用 WebView
  
-### 热更新
+### 热更新   
 
 
-### 组件化
+### 组件化   
 
 
 ### 推送技术   
 
-### JNI/NDK   
 
+### JNI/NDK   
 
 
 ### 测试   
@@ -58,6 +62,7 @@ tags:
 
 
 ### 常用第三方库的源码解析   
+
 - [OKHTTP]()   
 - [Retrofit]()   
 - [Glide]()   
