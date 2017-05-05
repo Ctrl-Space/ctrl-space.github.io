@@ -35,8 +35,14 @@ tags:
 
 
 ### 性能优化   
-
+[胡凯-安卓优化系列](http://hukai.me/)   
 [Android 内存优化总结&实践-腾讯Bugly](http://mp.weixin.qq.com/s/2MsEAR9pQfMr1Sfs7cPdWQ)   
+[Android APP启动优化](http://wuxiaolong.me/2017/03/13/appStart/)   
+[Android 渲染优化](http://wuxiaolong.me/2017/03/26/Rendering/)   
+[APK 瘦身事件](http://wuxiaolong.me/2017/03/19/ReduceAPKSize/)   
+[Android APK 瘦身 - JOOX Music 项目实战](http://mp.weixin.qq.com/s/9IGYG6hNKL1V7N_p16p2Hg)   
+[APK 包瘦身——追上那个胖子](http://mp.weixin.qq.com/s/w-JnlBRLiSbRRi_btwFDgA)   
+
 
 
 ### 混合开发   
@@ -46,7 +52,8 @@ tags:
 ### 热更新   
 
 
-### 组件化   
+### 插件化   
+[Android 插件技术实战总结](https://mp.weixin.qq.com/s/1p5Y0f5XdVXN2EZYT0AM_A)   
 
 
 ### 推送技术   

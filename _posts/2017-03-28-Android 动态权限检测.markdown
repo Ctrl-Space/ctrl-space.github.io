@@ -34,3 +34,7 @@ tags:
 > Android M 运行 `targetSdkVersion < 23` 的应用时，调用 `ContextCompat#checkSelfPermission`，不管用户是否取消授权，`checkSelfPermission` 的返回值始终为 `PERMISSION_GRANTED`。可使用  `PermissionChecker#checkSelfPermission` 检查动态权限。   
 > https://my.oschina.net/u/990728/blog/549914   
 
+### 参考   
+
+- [Android 6.0运行时权限简析及最佳实践](http://www.jianshu.com/p/cdcbd3038902)   
+

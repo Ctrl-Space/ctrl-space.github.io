@@ -1,0 +1,17 @@
+---
+layout:     post
+title:      "前端技能清单"
+subtitle:   "Web"
+date:       2015-05-05
+author:     "Ouwenjie"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Web
+---
+
+
+### Webpack   
+
+[入门 Webpack，看这篇就够了](http://www.jianshu.com/p/42e11515c10f)   
+
+
