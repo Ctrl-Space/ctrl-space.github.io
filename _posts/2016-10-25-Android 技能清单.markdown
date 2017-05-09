@@ -42,6 +42,7 @@ tags:
 [APK 瘦身事件](http://wuxiaolong.me/2017/03/19/ReduceAPKSize/)   
 [Android APK 瘦身 - JOOX Music 项目实战](http://mp.weixin.qq.com/s/9IGYG6hNKL1V7N_p16p2Hg)   
 [APK 包瘦身——追上那个胖子](http://mp.weixin.qq.com/s/w-JnlBRLiSbRRi_btwFDgA)   
+[Android 减包 － 减少APK大小](https://mp.weixin.qq.com/s/u7qZp7ifUZoty8d8McH5QA)   
 
 
 
@@ -54,6 +55,11 @@ tags:
 
 ### 插件化   
 [Android 插件技术实战总结](https://mp.weixin.qq.com/s/1p5Y0f5XdVXN2EZYT0AM_A)   
+
+
+### 安全、逆向   
+
+
 
 
 ### 推送技术   
